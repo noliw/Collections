@@ -30,7 +30,13 @@
 
 * Lists 
   * used when sequence matters
+  * ordered list like a shopping cart
   * allows duplicate values
+  * a list is immutable, we can't update any of the references it stores
+* Mutable list
+  * is a subtype of list so it can do basically the same thing
+  * only difference is that it can have extra functions to add or remove values, or update or rearrange existing ones
+  * add a new vallue by using add() functions
 * Set
   * used when uniqueness matters
   * doesn't allow duplicates,
