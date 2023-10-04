@@ -45,3 +45,22 @@
   * used with key/value pairs
   * no duplicate keys
   * allows duplicate values
+
+NOTES:
+
+* Create an array initialized with null values using the arrayOfNulls()
+* Useful array functions include: sort, reverse, contains, min, max, sum, average
+* The kotlin Standard library contains pre-built classes and functions grouped into packages
+* A List is a collection that knows and cares about index position. It can contain duplicate values
+* A set is an unordered collection that doesn't allow duplicates
+* A map is a collection that uses key/value pairs. It can contain duplicate values, but not duplicate keys.
+* List, Set, Map are immutable by default. 
+* MutableList, MutableSet, MutableMap are mutable subtypes of these collections
+* Create a list using listOf()
+* Create a Mutable list using mutableListOf()
+* Create a set using setOf()
+* Create a MutableSet using mutableSetOf()
+* A set checks for duplicates by first looking for matching hash code values. It then uses === and == operators to check for referential or object equality
+* Create a map using mapOf(), passing key/value pairs
+* Create a MutableMap using MutableMapOf()
+* 
