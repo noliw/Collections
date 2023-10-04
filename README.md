@@ -26,7 +26,7 @@
     * // 3
   * Sort the array in a natural order (numbers, strings, chars, booleans)
     * array.sort()
-    * // (1,2,3)
+    * // (1,2,3).
 
 * Lists 
   * used when sequence matters
