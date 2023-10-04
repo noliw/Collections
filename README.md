@@ -63,4 +63,3 @@ NOTES:
 * A set checks for duplicates by first looking for matching hash code values. It then uses === and == operators to check for referential or object equality
 * Create a map using mapOf(), passing key/value pairs
 * Create a MutableMap using MutableMapOf()
-* 
